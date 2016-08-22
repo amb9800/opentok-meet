@@ -50,6 +50,7 @@ form#joinRoom input[type='text'] {
     background-color: #262422;
     border: 1px solid #DCD9CD;
     color: #DCD9CD;
+    display: none;
 }
 
 @media screen and (max-width: 650px) {
@@ -73,7 +74,8 @@ form#joinRoom input[type='submit'] {
 }
 
 img.logo {
-    width: 480px;
-    height: 360px;
-    margin-bottom: 50px;
+    width: 600px;
+    height: 400px;
+    margin-bottom: 0px;
+/* orig 480x360  */
 }
