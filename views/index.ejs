@@ -26,7 +26,7 @@
             <p>Type <strong>halo</strong> below and then press Join to jump into the video stream</p>
             <form id="joinRoom" ng-submit="joinRoom()">
                 <div id="inputs">
-                  <input type="text" autocomplete='off' name="room" value="halo" ng-model="room" id="room">
+                  <input type="text" autocomplete='off' name="room" value="halo" ng-model="room" ng-init="room='halo'" id="room">
                   <!-- <input type="text" name="room" value="halo" ng-model="room" id="room" placeholder="room name"> -->
 
                     <!-- <div id="p2pCheckbox">  -->
