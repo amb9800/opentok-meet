@@ -73,6 +73,7 @@
             ng-cloak>
         </reconnecting-overlay>
         <div id="bottomBar">
+<!--
             <button name="screenshare" id="showscreen" ng-click="toggleShareScreen()" ng-class="{green: !sharingMyScreen, red: sharingMyScreen}" class="screen-btn icon-left ion-monitor" ng-disabled="!screenShareSupported || selectingScreenSource || promptToInstall" ng-if="!isAndroid" title="Share Screen"></button>
 
             <span class="unread-indicator" ng-class="{unread: whiteboardUnread}">
@@ -84,7 +85,7 @@
                 <button name="editor" id="showEditorBtn" ng-click="toggleEditor()" ng-class="{green: !showEditor, red: showEditor}" class="editor-btn icon-left ion-document-text" title="Collaborative Editor"></button>
                 <span class="indicator"></span>
             </span>
-
+-->
             <button type="button" name="archive" id="startArchiveBtn"
                 ng-if="!p2p && connected" ng-class="{green: !archiving, red: archiving}" class="icon-left ion-ios7-recording"
                 ng-click="toggleArchiving()" title="Record"></button>
@@ -94,7 +95,9 @@
                 <button name="publishSD" id="publishSDBtn" ng-if="!publishing" ng-click="togglePublish(false)" class="publish-btn green icon-left ion ion-ios7-videocam" title="WebCam"><span ng-if="!publishing">SD</span></button>
               </span>
             </span>
+<!--
             <button name="changeRoom" id="changeRoom" ng-click="changeRoom()" class="icon-left ion-log-out red" title="Leave"></button>
+-->
         </div>
         <div id="footer">
             <a href="https://github.com/aullman/opentok-meet" target="_blank"><i class="ion-social-github" title="View source on GitHub"></i></a>
