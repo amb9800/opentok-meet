@@ -81,7 +81,7 @@ ot-layout button.resize-btn, ot-layout button.restrict-framerate-btn, ot-layout 
     transition-property: top,bottom,opacity;
     transition-duration: .5s;
     transition-timing-function: ease-in;
-    opacity: 0;
+    opacity: 0.5;
     top: -25px;
     position: absolute;
     z-index: 99;
@@ -304,7 +304,7 @@ button:disabled {
 
 #statusMessages {
     transition: opacity 200ms ease;
-    opacity: 0;
+    opacity: 0.5;
     position: absolute;
     width: 465px;
     left: calc(50% - 242.5px);
@@ -346,7 +346,7 @@ button:disabled {
 
 #footer {
     position: absolute;
-    opacity: 0;
+    opacity: 0.5;
     bottom: 15px;
     right: 15px;
     font-size: 15px;
@@ -390,7 +390,7 @@ mute-video {
     left: -7px;
     z-index: 100;
     transition: opacity 500ms ease-in;
-    opacity: 0;
+    opacity: 1;
 }
 
 #facePublisher:hover mute-video {
