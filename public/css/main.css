@@ -165,7 +165,7 @@ ot-editor > div.opentok-editor-mode-select {
 
 #bottomBar {
   transition: opacity 200ms ease;
-  opacity: 0;
+  opacity: 1;
   width: 100%;
   left: 0;
   bottom: 20px;
